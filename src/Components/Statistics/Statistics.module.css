@@ -1,0 +1,21 @@
+.list {
+  padding: 20px;
+  margin: 0;
+}
+
+.item {
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+}
+
+span {
+  font-weight: 600;
+}
